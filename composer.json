@@ -3,7 +3,10 @@
   "description": "Workana Hiring Challenge",
   "license": "proprietary",
   "autoload": {
-    "psr-4": {"app\\": "src/"}
+    "psr-4": {
+        "app\\": "src/",
+        "test\\": "test/"
+    }
   },
   "require": {
     "ext-redis": "*",
